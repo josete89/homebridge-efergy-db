@@ -1,0 +1,22 @@
+{
+	"pluginAlias": "EfergyAccessory",
+	"pluginType": "accessory",
+	"singular": true,
+	"schema": {
+	 "type": "object",
+	 "properties": {
+			"name": {
+				"title": "Name",
+				"type": "string",
+				"required": true,
+				"default": "Efergy Accessory"
+			},
+			"token":{
+				"title": "Efergy token",
+				"type": "string",
+				"required": true,
+				"default": "hack"
+			}
+    }
+	}
+}
